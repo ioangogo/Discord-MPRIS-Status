@@ -3,13 +3,13 @@
 
 The status will not show up for you, as Discord does not display it on your own client when you edit it. I cannot fix this. Your friends will be able to see it however, or you can log into another account and check.
 
-**Due to Snip being Windows only, I can only provide support for this program on Windows, and furthermore it will only actually work on Windows unless you pray to the Linux gods or Steve Jobs or smth, Although there is rudemetary crossplatform work for linux**
+**This branch works with Windows and Linux, this branch is still experemetial**
 
 ![Sidebar](http://storage.dinitride.win/sidebar_example.png)
 
 ![Profile](http://storage.dinitride.win/profile_example.png)
 
-#### The program will work with:
+### The program will work with:
 - Spotify
 - iTunes
 - Winamp
@@ -18,11 +18,20 @@ The status will not show up for you, as Discord does not display it on your own 
 - Google Play Music Desktop Player
 - Quod Libet
 
-#### Requirements:
+### Requirements:
 - Python 3.6
 - Discord.py and Logbook installed via pip
+
+#### Windows:
 - Snip / https://github.com/dlrudie/Snip/releases/latest
 
+#### Linux:
+- pympris installed via pip
+- dbus-python installed via you package manager 
+    - Fedora: ```sudo dnf install dbus-python```
+    - Ubuntu: ```sudo apt install python3-dbus```
+    - **Don't install via pip, the package is out dated**
+    
 ### Install:
 1. Install requirements above
 2. Start up snip, this must be done at least once before starting the script, and snip **must be running while you use it!**
